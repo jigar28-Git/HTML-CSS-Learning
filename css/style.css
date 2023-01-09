@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*styling navbar*/
+.navbar
+{
+    display: flex;
+    margin: 4px;
+    padding: 20px;
+    text-align: center;
+    background-color: #f44336;
+}
+.navbar img{
+    position: relative;
+    left: 0%;
+}
+.navbar a{
+    margin-left: 10px;
+}
+/*styling navbar*/
+
+/* Styling For paragraph*/
+.paragraph h1,p,pre
+{
+    width: 100%;
+    text-align: center; 
+}
+/* Styling For paragraph div over*/
+
+/* Styling For formating*/
+.formating p
+{
+    text-align: left;
+}
+/* Styling For formating over*/
+
+/* Styling For link button*/
+.linkbtn a:link,a:visited
+{
+    background-color: #f44336;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.linkbtn p{
+    text-align: left;
+}
+.linkbtn a:hover, a:active {
+    background-color: red;
+  }
+/* Styling For link button div end*/
+
+/* Styling Table */
+.tabledemo {
+    margin-left: auto; 
+    margin-right: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border: 12px;
+  }
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+/* Styling Table */
+
